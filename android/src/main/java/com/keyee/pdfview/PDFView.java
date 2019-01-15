@@ -18,7 +18,7 @@ public class PDFView implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    //@Override rn > 47    
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
