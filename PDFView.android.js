@@ -32,7 +32,7 @@ PDFView.propTypes = {
     onLoadComplete: PropTypes.func
 };
 
-var PDFCustomView = requireNativeComponent('PDFView', PDFView, {
+var PDFCustomView = requireNativeComponent('RCTPDFViewAndroid', PDFView, {
   nativeOnly: {onChange: true}
 });
 
